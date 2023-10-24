@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: '/edit/:id',
       name: 'edit',
-      component: () => import('../views/SaveBook.vue')
+      component: () => import('../views/EditBook.vue')
     },
     {
       path: '/comments/:id',
